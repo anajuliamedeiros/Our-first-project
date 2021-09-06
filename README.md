@@ -1,2 +1,2 @@
-# projeto-site
- Projeto de um site criado durante um curso de Git e Github
+# Our first project
+ Projeto de desenvolvimento de um site simples e do zero para compartilhamento de conhecimento
