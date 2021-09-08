@@ -4,15 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Título do site</title>
+    <title>WebWorld</title>
+    <link rel="stylesheet" href="../projeto-site/css/index.css">
 </head>
 <body>
-    <main>
-        <header>Título do site</header>
+    <header>
+        <main>
+            <div class="header">
+                <div class="insideHeader">
+                <img src="../projeto-site/img/logopsd.png" alt="Imagem ilustrativa do logo WebWorld" class="logo">
+                <div class="redes">
+                    <div><img src="../projeto-site/img/face.png"></div>
+                    <div><img src="../projeto-site/img/twitter.png"></div>
+                    <div><img src="../projeto-site/img/linke.png"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </header>
+    <main class="col-100" id="mainCol">
+        <div class="menuHeader">
+            <div class="menu">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Service</a></li>
+                    <li><a href="">Pages</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </div>
+            <div class="busca">
+                <input type="text" id="buscaInput" placeholder="Search Something">
+            </div>
+        </div>
     </main>
     <article>
         <h2>Artigo 001</h2>
         <p>Texto Artigo 001</p>
     </article>
+    <article>
+        <h2>Artigo 002</h2>
+        <p>Texto Artigo 002</p>
+    </article>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+        var link = $(".menu li a")
+
+        link,on("click",function(){
+            
+        })
+    </script>
 </body>
 </html>
