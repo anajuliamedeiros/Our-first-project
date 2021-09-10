@@ -101,6 +101,7 @@
     font-size: 1.5rem;
 }
 
+/* DENTRO DIV DC */
 .loremDC{
     width: 80%;
     margin: 50px auto;
@@ -111,4 +112,28 @@
 
 .loremDC p{
     margin-top: 25px;
+}
+
+.separateDC{
+    width: 80%;
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.separateDC p{
+    width: 60%;
+    margin: 20px auto;
+}
+
+.separateDC h5{
+    margin-top: 20px;
+}
+
+.pencil{
+    margin-top: 40px;
+}
+
+.imac:hover{
+    
 }
