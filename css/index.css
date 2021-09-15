@@ -130,10 +130,95 @@
     margin-top: 20px;
 }
 
-.pencil{
+/* .pencil{
     margin-top: 40px;
+} */
+
+
+.imac{
+    background-image: url('../img/imac.png');
+    width: 112px;
+    height: 112px ;
+    margin: auto;
+}
+.imac:hover{
+    background-image: url('../img/imachover.png');
+    
 }
 
-.imac:hover{
+.pencil{
+    background-image: url('../img/pencil.png');
+    width: 117px;
+    height: 117px;
+    margin: 40px auto;
+}
+
+.pencil:hover{
+    background-image: url('../img/pencilhover.png');
+}
+
+.photo{
+    background-image: url('../img/photo.png');
+    width: 126px;
+    height: 111px;
+    margin: auto;
+}
+
+.photo:hover{
+    background-image: url('../img/photohover.png');
+}
+
+/* SECTIONS DAS IMAGENS SELECIONADAS */
+.selectSeparate{
+    background-color: #eeeeee;
+    height: 80vh;
+    margin-bottom: 100px;
+}
+#imacSelect, #im{
     
+}
+/* FIM */
+.sponsor{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bh{
+    height: 30px;
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    height: 50vh;
+    background-color: #4b4f4c;
+}
+
+.flexRopdape{
+    width: 75%;
+    margin: auto;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.hrRodape{
+    background-color: #5c5c5c;
+    height: 5vh;
+     
+}
+
+.sizeDiv{
+    width: 18%;
+}
+
+footer{
+    height: 7vh;
+    background-color: #282923;
+    color: white;
 }
