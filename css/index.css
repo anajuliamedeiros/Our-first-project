@@ -208,7 +208,7 @@
 }
 
 .hrRodape{
-    background-color: #5c5c5c;
+    background-color: #afafaf;
     height: 5vh;
      
 }
@@ -221,4 +221,22 @@ footer{
     height: 7vh;
     background-color: #282923;
     color: white;
+    display: flex;
+    align-items: center;
+}
+
+.redesBot{
+    width: 12%;
+    margin-right: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.mgAuto{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
