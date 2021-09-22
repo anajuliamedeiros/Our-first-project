@@ -1,1 +1,1 @@
-$('.slider-principal').slick();
+// $('.slider-principal').slick();

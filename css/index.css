@@ -257,10 +257,14 @@ footer{
 }
 
 .middleChevron div{
-    border: 1px solid black;
     width: 302px;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.addBorder{
+    border: 0.5px solid #c5c5c5;
+    margin: 0!important;
 }
 
 .middleChevron p{
@@ -275,4 +279,14 @@ footer{
 
 #photoSelect, #pencilSelect{
     display: none;
+}
+
+.btnClick{
+    background-color: transparent;
+    border: none;
+}
+
+.box{
+    position: relative;
+    left: 550px;
 }
